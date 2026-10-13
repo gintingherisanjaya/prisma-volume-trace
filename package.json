@@ -1,0 +1,16 @@
+{
+  "name": "prisma-volume-trace",
+  "version": "1.0.0",
+  "description": "Export PRISMA My Managed Volume per PKS to Excel",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "exceljs": "^4.4.0"
+  }
+}
